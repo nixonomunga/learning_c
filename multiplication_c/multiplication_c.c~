@@ -1,0 +1,13 @@
+#include <stdio.h>
+int product_two_num (int m, int n)
+{
+  int product;
+  product = m*n;
+  return product;
+}
+int main ()
+{
+  int ans;
+  ans = product_two_num(167, 789);
+  return 0;
+}
